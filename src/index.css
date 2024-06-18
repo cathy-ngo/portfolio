@@ -15,3 +15,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: Jua;
+  src: url('/src/Jua.ttf');
+}
+
+@font-face {
+  font-family: Gaegu;
+  src: url('/src/Gaegu.ttf');
+}
+
+.jua {
+  font-family: Jua;
+}
+
+.gaegu {
+  font-family: Gaegu;
+}
