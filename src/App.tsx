@@ -7,7 +7,6 @@ import Home from './components/pages/Home';
 function App() {
   return (
     <div className='h-screen flex flex-col'>
-      <Navbar></Navbar>
       <Home></Home>
     </div>
   );
