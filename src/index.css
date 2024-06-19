@@ -33,3 +33,54 @@ code {
 .gaegu {
   font-family: Gaegu;
 }
+
+.homeBackground {
+  background: linear-gradient(176deg, #ffefef, #ffe1e1, #cca5a5, #ffcece);
+  background-size: 800% 800%;
+
+  -webkit-animation: GradientAnimation 20s ease infinite;
+  -moz-animation: GradientAnimation 20s ease infinite;
+  animation: GradientAnimation 20s ease infinite;
+}
+
+@-webkit-keyframes GradientAnimation {
+  0% {
+    background-position: 71% 0%
+  }
+
+  50% {
+    background-position: 30% 100%
+  }
+
+  100% {
+    background-position: 71% 0%
+  }
+}
+
+@-moz-keyframes GradientAnimation {
+  0% {
+    background-position: 71% 0%
+  }
+
+  50% {
+    background-position: 30% 100%
+  }
+
+  100% {
+    background-position: 71% 0%
+  }
+}
+
+@keyframes GradientAnimation {
+  0% {
+    background-position: 71% 0%
+  }
+
+  50% {
+    background-position: 30% 100%
+  }
+
+  100% {
+    background-position: 71% 0%
+  }
+}
