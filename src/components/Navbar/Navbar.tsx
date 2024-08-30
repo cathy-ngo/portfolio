@@ -2,19 +2,16 @@ import logo from '../../logo.svg';
 import NavButton from './NavButton';
 
 export default function Navbar() {
-    const pageNames = ['home', 'projects', 'photos', 'resume'];
-
     return (
-        <nav className="flex flex-col justify-center text-brownie bg-vanilla h-20">
-            <div className="flex">
-                <div className="flex gap-x-3 mx-6">
-                    <div><img src={logo} alt="logo" /></div>
-                    <div className="jua text-3xl h-full pt-0.5">cathy ngo</div>
-                </div>
-                <div className="gaegu flex gap-x-6 text-xl">
-                    {pageNames.map(value => <NavButton name={value} />)}
-                </div>
+        <nav className="flex justify-center sticky top-0">
+            <div className="flex w-auto opaqueWhite gap-6 px-10 py-2 mt-10 gaegu text-brownie text-xl rounded-[32px]">
+                <NavButton name={"home"} />
+                <NavButton name={"projects"} />
+                <div className="px-3"><img src={logo} alt="logo" /></div>
+                <NavButton name={"photos"} />
+                <NavButton name={"about"} />
             </div>
+
         </nav>
     );
 }
