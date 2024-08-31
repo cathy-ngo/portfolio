@@ -10,11 +10,11 @@ function App() {
     <div className='h-screen homeBackground flex flex-col'>
       <Navbar></Navbar>
       <section className="flex justify-center h-screen mt-12">
-        <div className="max-w-screen-xl w-full mx-32">
+      <div className="w-[72rem] mx-12">
+        {/* <div className="max-w-screen-xl w-full mx-64"> */}
           <Banner></Banner>
         </div>
       </section>
-
     </div>
   );
 }
