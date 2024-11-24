@@ -43,6 +43,10 @@ code {
   animation: GradientAnimation 20s ease infinite;
 }
 
+.gradient-text {
+  @apply bg-gradient-to-b from-brownie from-50% to-sesame inline-block text-transparent bg-clip-text;
+}
+
 @-webkit-keyframes GradientAnimation {
   0% {
     background-position: 71% 0%
