@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Banner from './components/Banner';
-import Projects from './components/Projects';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (

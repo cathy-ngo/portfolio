@@ -12,6 +12,7 @@ module.exports = {
         brownie: '#8F6D6D',
         sesame: '#666666',
         vanilla: '#FFFEFE',
+        strawberry: '#FFD6D6',
       }
     },
   },
