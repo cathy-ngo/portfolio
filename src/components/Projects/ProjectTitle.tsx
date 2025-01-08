@@ -1,4 +1,4 @@
-import bunnyImage from "../../static/assets/images/bunny.svg"
+import bunnyImage from "../../static/assets/images/icons/bunny.svg"
 
 type ProjectTitleProps = { 
     title: string 

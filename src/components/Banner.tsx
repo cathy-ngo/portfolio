@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
 import portrait from "../static/assets/images/portrait.png"
-import linkedinLogo from "../static/assets/images/linkedin.svg"
-import githubLogo from "../static/assets/images/github.svg"
+import linkedinLogo from "../static/assets/images/icons/linkedin.svg"
+import githubLogo from "../static/assets/images/icons/github.svg"
 
 export default function Banner() {
     return (

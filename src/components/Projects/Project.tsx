@@ -2,7 +2,7 @@ import { useState } from "react";
 import Tag from "../Tag"
 import ProjectTitle from "./ProjectTitle"
 import pattern from "../../static/assets/images/projects/pattern.svg"
-import arrowUpRight from "../../static/assets/images/arrow-up-right.svg"
+import arrowUpRight from "../../static/assets/images/icons/arrow-up-right.svg"
 
 type ProjectProps = { 
     project: Project 

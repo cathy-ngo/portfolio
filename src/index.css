@@ -18,12 +18,12 @@ code {
 
 @font-face {
   font-family: Jua;
-  src: url('/src/Jua.ttf');
+  src: url('/src/static/assets/fonts/Jua.ttf');
 }
 
 @font-face {
   font-family: Gaegu;
-  src: url('/src/Gaegu.ttf');
+  src: url('/src/static/assets/fonts/Gaegu.ttf');
 }
 
 .jua {

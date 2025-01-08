@@ -1,7 +1,3 @@
-type NavButtonProps = {
-    name: string;
-}
-
 type Project = {
     name: string;
     image: string;
@@ -12,3 +8,13 @@ type Project = {
 }
 
 type Tag = "dev" | "design";
+
+type TagStyle = {
+    image: string,
+    alt: string,
+    backgroundColor: string;
+}
+
+type TagStyles = {
+    [key in Tag]: TagStyle;
+};
