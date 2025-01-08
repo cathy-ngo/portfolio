@@ -10,11 +10,16 @@ type Project = {
 type Tag = "dev" | "design";
 
 type TagStyle = {
-    image: string,
-    alt: string,
+    image: string;
+    alt: string;
     backgroundColor: string;
 }
 
 type TagStyles = {
     [key in Tag]: TagStyle;
 };
+
+type Skill = {
+    name: string;
+    icon: string;
+}

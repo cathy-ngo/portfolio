@@ -8,7 +8,7 @@ export default function Navbar() {
                 <NavButton name={"home"} />
                 <NavButton name={"projects"} />
                 <img className="h-9" src={logo} alt="logo" />
-                <NavButton name={"photos"} />
+                <NavButton name={"skills"} />
                 <NavButton name={"about"} />
             </div>
 
