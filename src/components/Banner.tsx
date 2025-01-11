@@ -1,13 +1,9 @@
-import portrait from "../static/assets/images/portrait.png"
-import linkedinLogo from "../static/assets/images/icons/linkedin.svg"
-import githubLogo from "../static/assets/images/icons/github.svg"
-
 export default function Banner() {
     return (
         <div className="h-screen pb-64 max-h-[900px]">
             <div className="opaque-white w-full rounded text-brownie h-full">
                 <div className="flex h-full justify-center flex-wrap">
-                        <img src={portrait} alt="Self Portrait" className="h-full pt-10 bottom-0 object-cover"></img>
+                        <img src="images/portrait.png" alt="Self Portrait" className="h-full pt-10 bottom-0 object-cover"></img>
                     <div className="flex flex-col justify-center pr-8">
                         <div className="flex justify-center">
                             <div className="w-72">
@@ -19,8 +15,8 @@ export default function Banner() {
                                     </div>
                                 </div>
                                 <div className="flex justify-center h-8 mt-4 gap-x-4">
-                                    <img src={linkedinLogo} alt="LinkedIn Logo"></img>
-                                    <img src={githubLogo} alt="GitHub Logo"></img>
+                                    <img src="icons/linkedin.svg" alt="LinkedIn Logo"></img>
+                                    <img src="icons/github.svg" alt="GitHub Logo"></img>
                                 </div>
                             </div>
                         </div>

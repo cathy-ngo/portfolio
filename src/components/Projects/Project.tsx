@@ -1,8 +1,6 @@
 import { useState } from "react";
 import Tag from "../Tag"
 import ProjectTitle from "./ProjectTitle"
-import pattern from "../../static/assets/images/projects/pattern.svg"
-import arrowUpRight from "../../static/assets/images/icons/arrow-up-right.svg"
 
 type ProjectProps = { 
     project: Project 
@@ -31,7 +29,7 @@ function Details({project}: ProjectProps) {
                     <a target="_blank" rel="noopener noreferrer" href={project.url}>
                     <div className="w-9 h-9 rounded flex justify-center bg-strawberry">
                         <div className="flex flex-col justify-center">
-                            <img src={arrowUpRight} alt="External link" className="w-6 h-6"></img>
+                            <img src="images/icons/arrow-up-right.svg" alt="External link" className="w-6 h-6"></img>
                         </div>
                     </div>
                 </a>
@@ -49,7 +47,7 @@ function Details({project}: ProjectProps) {
                     </div>
                 </div>
             </div>
-            <img src={pattern} alt="Pattern"></img>
+            <img src="images/projects/pattern.svg" alt="Pattern"></img>
         </div>
     )
 }

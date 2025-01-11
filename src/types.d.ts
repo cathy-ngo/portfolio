@@ -21,5 +21,5 @@ type TagStyles = {
 
 type Skill = {
     name: string;
-    icon: string;
+    filename: string;
 }

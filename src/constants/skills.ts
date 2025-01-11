@@ -1,83 +1,66 @@
-import html from "../static/assets/images/skills/html.png"
-import css from "../static/assets/images/skills/css.png"
-import javascript from "../static/assets/images/skills/javascript.png"
-import typescript from "../static/assets/images/skills/typescript.png"
-import angular from "../static/assets/images/skills/angular.png"
-import react from "../static/assets/images/skills/react.png"
-import swift from "../static/assets/images/skills/swift.png"
-import kotlin from "../static/assets/images/skills/kotlin.png"
-import dotnet from "../static/assets/images/skills/dotnet.png"
-import csharp from "../static/assets/images/skills/c#.png"
-import git from "../static/assets/images/skills/git.png"
-import splunk from "../static/assets/images/skills/splunk.png"
-import jest from "../static/assets/images/skills/jest.png"
-import figma from "../static/assets/images/skills/figma.png"
-import photoshop from "../static/assets/images/skills/photoshop.png"
-import lightroom from "../static/assets/images/skills/lightroom.png"
-
 export const SKILLS: Skill[] = [
     {
         name: 'html',
-        icon: html
+        filename: 'html.png'
     },
     {
         name: 'css',
-        icon: css
+        filename: 'css.png'
     },
     {
         name: 'javascript',
-        icon: javascript
+        filename: 'javascript.png'
     },
     {
         name: 'typescript',
-        icon: typescript
+        filename: 'typescript.png'
     },
     {
         name: 'angular',
-        icon: angular
+        filename: 'angular.png'
     },
     {
         name: 'react',
-        icon: react
+        filename: 'react.png'
     },
     {
         name: 'swift',
-        icon: swift
+        filename: 'swift.png'
     },
     {
         name: 'kotlin',
-        icon: kotlin
+        filename: 'kotlin.png'
     },
     {
         name: '.net',
-        icon: dotnet
+        filename: 'dotnet.png'
     },
     {
         name: 'c#',
-        icon: csharp
+        filename: 'csharp.png'
     },
     {
         name: 'git',
-        icon: git
+        filename: 'git.png'
     },
     {
         name: 'splunk',
-        icon: splunk
+        filename: 'splunk.png'
     },
     {
         name: 'jest',
-        icon: jest
+        filename: 'jest.png'
     },
     {
         name: 'figma',
-        icon: figma
+        filename: 'figma.png'
     },
     {
         name: 'photoshop',
-        icon: photoshop
+        filename: 'photoshop.png'
     },
     {
         name: 'lightroom',
-        icon: lightroom
+        filename: 'lightroom.png'
     },
 ]
