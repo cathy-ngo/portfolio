@@ -29,7 +29,7 @@ function Details({project}: ProjectProps) {
                     <a target="_blank" rel="noopener noreferrer" href={project.url}>
                     <div className="w-9 h-9 rounded flex justify-center bg-strawberry">
                         <div className="flex flex-col justify-center">
-                            <img src="images/icons/arrow-up-right.svg" alt="External link" className="w-6 h-6"></img>
+                            <img src="icons/arrow-up-right.svg" alt="External link" className="w-6 h-6"></img>
                         </div>
                     </div>
                 </a>
