@@ -15,8 +15,14 @@ export default function Banner() {
                                     </div>
                                 </div>
                                 <div className="flex justify-center h-8 mt-4 gap-x-4">
-                                    <img src="icons/linkedin.svg" alt="LinkedIn Logo"></img>
-                                    <img src="icons/github.svg" alt="GitHub Logo"></img>
+                                <div className="flex justify-center gap-x-4">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/cathyngo1/">
+                                        <img src="icons/linkedin.svg" alt="LinkedIn Logo" className="w-9"></img>
+                                    </a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/cathy-ngo">
+                                        <img src="icons/github.svg" alt="GitHub Logo" className="w-9"></img>
+                                    </a>
+                                </div>
                                 </div>
                             </div>
                         </div>

@@ -23,3 +23,13 @@ type Skill = {
     name: string;
     filename: string;
 }
+
+type Stat = {
+    title: string;
+    description: string;
+}
+
+type ProfiencyBar = {
+    name: string;
+    value: number;
+}

@@ -8,7 +8,7 @@ export default function Projects() {
                 <h2 className="jua gradient-text text-4xl mb-8">projects</h2>
             </div>
             <div className="flex justify-center flex-wrap gap-10">
-                {PROJECTS.map(project => <Project project={project}/>)}
+                {PROJECTS.map(project => <Project key={project.name} project={project}/>)}
             </div>
         </div>
     );

@@ -12,7 +12,7 @@ function Cover({project}: ProjectProps) {
             <ProjectTitle title={project.name}/>
             <div className="flex gap-3 justify-end">
                 {project.tags.map(tag => {
-                    return <Tag type={tag}></Tag>
+                    return <Tag key={tag} type={tag}></Tag>
                 })}
             </div>
         </div>
