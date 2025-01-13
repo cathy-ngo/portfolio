@@ -41,18 +41,20 @@ export default function About() {
                         </div>
                     </div>
 
-                    <div className="bg-strawberry w-7/12">
-                        {STATS.map((stat) => {
-                            return (
-                                <div key={stat.title}>
-                                    <div className="flex gap-2 w-max bg-brownie px-3 rounded">
-                                        <img src="icons/bunny.svg" alt="Bunny" className="w-3"></img>
-                                        <h4 className="jua text-vanilla text-lg">{stat.title}</h4>
+                    <div className="bg-strawberry w-7/12 rounded">
+                        <div className="px-14 pb-10 pt-9 flex flex-col h-full justify-between">
+                            {STATS.map((stat) => {
+                                return (
+                                    <div key={stat.title}>
+                                        <div className="flex gap-2 w-max bg-brownie px-3 rounded relative top-1.5">
+                                            <img src="icons/bunny.svg" alt="Bunny" className="w-3"></img>
+                                            <h4 className="jua text-vanilla text-lg">{stat.title}</h4>
+                                        </div>
+                                        <p className="opaque-white gaegu text-lg text-brownie rounded px-4 pt-3 pb-2">{stat.description}</p>
                                     </div>
-                                    <p className="opaque-white">{stat.description}</p>
-                                </div>
-                            );
-                        })}
+                                );
+                            })}
+                        </div>
                     </div>
                 </div>
             </div>

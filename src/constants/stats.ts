@@ -13,7 +13,7 @@ export const STATS: Stat[] = [
     },
     {
         title: 'coffee order',
-        description: 'small skinny latte with honey'
+        description: 'one small skinny latte with honey'
     },
     {
         title: 'typing speed',
