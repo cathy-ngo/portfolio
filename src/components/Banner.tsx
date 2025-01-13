@@ -1,6 +1,6 @@
 export default function Banner() {
     return (
-        <div className="h-screen pb-64 max-h-[900px]">
+        <div className="h-screen max-h-[680px]">
             <div className="opaque-white w-full rounded text-brownie h-full">
                 <div className="flex h-full justify-center flex-wrap">
                         <img src="images/portrait.png" alt="Self Portrait" className="h-full pt-10 bottom-0 object-cover"></img>
