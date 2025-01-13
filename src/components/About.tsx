@@ -23,7 +23,9 @@ export default function About() {
                                     <div key={profiency.name}>
                                         <div className="gaegu text-brownie">{profiency.name}</div>
                                         <div>
-                                            <div className="h-7 rounded-full border-2 border-brownie"></div>
+                                            <div className="h-7 rounded-full border-2 border-brownie">
+                                                <div className="rounded-full h-5/6 bg-watermelon m-0.5" style={{width: `${profiency.value}%`}}></div>
+                                            </div>
                                         </div>
                                     </div>
                                 );

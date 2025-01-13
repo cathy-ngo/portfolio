@@ -32,7 +32,7 @@ export const PROFICIENCY_BARS: ProfiencyBar[] = [
     },
     {
         name: 'backend',
-        value: 70
+        value: 65
     },
     {
         name: 'design',
