@@ -8,8 +8,8 @@ export default function About() {
             </div>
 
             <div className="flex justify-center">
-                <div className="flex opaque-white rounded w-10/12">
-                    <div className="w-5/12 flex flex-col gap-8 px-14 py-10 items-center">
+                <div className="flex opaque-white rounded lg:w-10/12 flex-col md:flex-row">
+                    <div className="w-full md:w-5/12 flex flex-col gap-8 px-14 py-10 items-center justify-center">
                         <div className="text-center">
                             <h3 className="gaegu text-brownie text-lg pt-2">PROFILE CARD</h3>
                             <div className="jua text-5xl gradient-text">cathy</div>
@@ -24,7 +24,7 @@ export default function About() {
                                         <div className="gaegu text-brownie">{profiency.name}</div>
                                         <div>
                                             <div className="h-7 rounded-full border-2 border-brownie">
-                                                <div className="rounded-full h-5/6 bg-watermelon m-0.5" style={{width: `${profiency.value}%`}}></div>
+                                                <div className="rounded-full h-5/6 bg-watermelon m-0.5" style={{ width: `${profiency.value}%` }}></div>
                                             </div>
                                         </div>
                                     </div>
@@ -41,8 +41,8 @@ export default function About() {
                         </div>
                     </div>
 
-                    <div className="bg-strawberry w-7/12 rounded">
-                        <div className="px-14 pb-10 pt-9 flex flex-col h-full justify-between">
+                    <div className="bg-strawberry w-full lg:w-7/12 rounded">
+                        <div className="px-14 pb-10 pt-9 flex flex-col h-full justify-between gap-4">
                             {STATS.map((stat) => {
                                 return (
                                     <div key={stat.title}>
