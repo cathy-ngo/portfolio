@@ -1,6 +1,6 @@
 export default function Banner() {
     return (
-        <div className="h-[calc(100vh-188px)] md:max-h-[680px] flex justify-center">
+        <div className="h-[max(calc(100vh-188px), 900px)] md:max-h-[680px] flex justify-center">
             <div className="opaque-white w-96 md:w-full rounded text-brownie h-full overflow-hidden">
                 <div className="flex h-full justify-center flex-col md:flex-row-reverse pt-10">
                     <div className="flex flex-col justify-center md:pr-8">
@@ -26,9 +26,9 @@ export default function Banner() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-center">
+                    <div className="flex justify-center grow md:grow-0">
                         <div className="flex flex-col justify-end">
-                            <img src="images/portrait.png" alt="Self Portrait" className="h-full pt-10 bottom-0 object-cover"></img>
+                            <img src="images/portrait.png" alt="Self Portrait" className="h-full max-h-[700px] pt-10 bottom-0 object-cover"></img>
                         </div>
                     </div>
                 </div>
