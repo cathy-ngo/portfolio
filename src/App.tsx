@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Banner from './components/Banner';
@@ -6,6 +5,7 @@ import Projects from './components/Projects/Projects';
 import Skills from './components/Skills';
 import About from './components/About';
 import Footer from './components/Footer';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
 	return (
@@ -26,6 +26,7 @@ function App() {
 				</div>
 			</section>
 
+			<Analytics />
 		</div>
 	);
 }
