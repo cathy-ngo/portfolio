@@ -21,13 +21,11 @@ function App() {
 						<Projects></Projects>
 						<Skills></Skills>
 						<About></About>
+						<Footer></Footer>
 					</div>
 				</div>
 			</section>
-			
-			<div className="mt-14">
-				<Footer></Footer>
-			</div>
+
 		</div>
 	);
 }

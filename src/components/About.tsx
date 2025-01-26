@@ -2,7 +2,7 @@ import { STATS, PROFICIENCY_BARS } from '../constants/stats';
 
 export default function About() {
     return (
-        <div>
+        <section id="about" className="scroll-mt-32">
             <div className="flex justify-center">
                 <h2 className="jua gradient-text text-4xl mb-8">about</h2>
             </div>
@@ -33,10 +33,10 @@ export default function About() {
                         </div>
                         <div className="flex justify-center gap-x-4">
                             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/cathyngo1/">
-                                <img src="icons/linkedin.svg" alt="LinkedIn Logo" className="w-9"></img>
+                                <img src="icons/linkedin.svg" alt="LinkedIn Logo" className="w-9 transition duration-300 hover:scale-105"></img>
                             </a>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/cathy-ngo">
-                                <img src="icons/github.svg" alt="GitHub Logo" className="w-9"></img>
+                                <img src="icons/github.svg" alt="GitHub Logo" className="w-9 transition duration-300 hover:scale-105"></img>
                             </a>
                         </div>
                     </div>
@@ -58,6 +58,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

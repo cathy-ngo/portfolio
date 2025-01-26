@@ -33,3 +33,10 @@ type ProfiencyBar = {
     name: string;
     value: number;
 }
+
+type NavItemPosition = "left" | "right";
+
+type NavItem = {
+    name: string;
+    position: NavItemPosition;
+}
