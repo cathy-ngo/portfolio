@@ -8,7 +8,7 @@ export default function About() {
             </div>
 
             <div className="flex justify-center">
-                <div className="flex opaque-white rounded lg:w-10/12 flex-col md:flex-row">
+                <div className="flex bg-snow rounded lg:w-10/12 flex-col md:flex-row">
                     <div className="w-full md:w-5/12 flex flex-col gap-8 px-14 py-10 items-center justify-center">
                         <div className="text-center">
                             <h3 className="gaegu text-brownie text-lg pt-2">PROFILE CARD</h3>
@@ -50,7 +50,7 @@ export default function About() {
                                             <img src="icons/bunny.svg" alt="Bunny" className="w-3"></img>
                                             <h4 className="jua text-vanilla text-lg">{stat.title}</h4>
                                         </div>
-                                        <p className="opaque-white gaegu text-lg text-brownie rounded px-4 pt-3 pb-2">{stat.description}</p>
+                                        <p className="bg-snow gaegu text-lg text-brownie rounded px-4 pt-3 pb-2">{stat.description}</p>
                                     </div>
                                 );
                             })}

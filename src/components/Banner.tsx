@@ -1,7 +1,7 @@
 export default function Banner() {
     return (
         <section id="home" className="h-[max(calc(100vh-188px), 900px)] md:max-h-[680px] flex justify-center scroll-mt-32">
-            <div className="opaque-white w-96 md:w-full rounded text-brownie h-full overflow-hidden">
+            <div className="bg-snow w-96 md:w-full rounded text-brownie h-full overflow-hidden">
                 <div className="flex h-full justify-center flex-col md:flex-row-reverse pt-10">
                     <div className="flex flex-col justify-center md:pr-8">
                         <div className="flex justify-center">

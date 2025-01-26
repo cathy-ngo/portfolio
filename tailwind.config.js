@@ -14,7 +14,8 @@ module.exports = {
         sesame: '#666666',
         vanilla: '#FFFEFE',
         strawberry: '#FFD6D6',
-        watermelon: '#FF8C8C'
+        watermelon: '#FF8C8C',
+        snow: 'rgba(255, 255, 255, 0.7)',
       }
     },
   },

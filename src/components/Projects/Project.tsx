@@ -2,14 +2,14 @@ import { useState } from "react";
 import Tag from "../Tag"
 import ProjectTitle from "./ProjectTitle"
 
-type ProjectProps = { 
-    project: Project 
+type ProjectProps = {
+    project: Project
 };
 
-function Cover({project}: ProjectProps) {
+function Cover({ project }: ProjectProps) {
     return (
-        <div className="flex flex-col p-4 justify-between bg-cover h-96 w-96 rounded transition duration-200 cursor-pointer hover:scale-105" style={{backgroundImage: `url(${project.image})`}}>
-            <ProjectTitle title={project.name}/>
+        <div className="flex flex-col p-4 justify-between bg-cover h-96 w-96 rounded transition duration-200 cursor-pointer hover:scale-105" style={{ backgroundImage: `url(${project.image})` }}>
+            <ProjectTitle title={project.name} />
             <div className="flex gap-3 justify-end">
                 {project.tags.map(tag => {
                     return <Tag key={tag} type={tag}></Tag>
@@ -19,20 +19,20 @@ function Cover({project}: ProjectProps) {
     )
 }
 
-function Details({project}: ProjectProps) {
+function Details({ project }: ProjectProps) {
     return (
-        <div className="flex flex-col justify-between h-96 w-96 rounded transition duration-200 cursor-pointer hover:scale-105 bg-white p-4 opaque-white">
+        <div className="flex flex-col justify-between h-96 w-96 rounded transition duration-200 cursor-pointer hover:scale-105 bg-white p-4 bg-lychee">
             <div>
                 <div className="flex flex-row justify-between">
-                    <ProjectTitle title={project.name}/>
+                    <ProjectTitle title={project.name} />
                     {project.url &&
-                    <a target="_blank" rel="noopener noreferrer" href={project.url}>
-                        <div className="w-9 h-9 rounded flex justify-center bg-strawberry">
-                            <div className="flex flex-col justify-center">
-                                <img src="icons/arrow-up-right.svg" alt="External link" className="w-6 h-6"></img>
+                        <a target="_blank" rel="noopener noreferrer" href={project.url}>
+                            <div className="w-9 h-9 rounded flex justify-center bg-strawberry">
+                                <div className="flex flex-col justify-center">
+                                    <img src="icons/arrow-up-right.svg" alt="External link" className="w-6 h-6"></img>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
                     }
 
                 </div>
@@ -52,12 +52,12 @@ function Details({project}: ProjectProps) {
     )
 }
 
-export default function Project({project} : ProjectProps) {
+export default function Project({ project }: ProjectProps) {
     const [isFlipped, setIsFlipped] = useState(false);
 
     return (
         <div key={project.name} onClick={() => setIsFlipped(!isFlipped)}>
-            { isFlipped ? <Details project={project}/> : <Cover project={project}/> }
+            {isFlipped ? <Details project={project} /> : <Cover project={project} />}
         </div>
     )
 }
