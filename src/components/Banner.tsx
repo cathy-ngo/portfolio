@@ -8,7 +8,7 @@ export default function Banner() {
                             <div className="w-72">
                                 <div className="flex flex-col gaegu text-center">
                                     <div className="text-xl leading-3">hi there, my name is</div>
-                                    <h1 className="jua text-5xl md:text-6xl gradient-text leading-tight">cathy ngo</h1>
+                                    <h1 className="jua text-5xl leading-tight md:text-6xl gradient-text md:leading-tight">cathy ngo</h1>
                                     <div className="flex justify-center">
                                         <div className="text-base w-64 leading-4">i am a software engineer with a soft spot for design. based in australia :&#41;</div>
                                     </div>
