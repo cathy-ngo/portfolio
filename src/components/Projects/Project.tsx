@@ -21,7 +21,7 @@ function Cover({ project }: ProjectProps) {
 
 function Details({ project }: ProjectProps) {
     return (
-        <div className="flex flex-col justify-between h-80 w-80 md:h-96 md:w-96 rounded transition duration-200 cursor-pointer hover:scale-105 bg-white p-4 bg-lychee">
+        <div className="flex flex-col justify-between overflow-hidden h-80 w-80 md:h-96 md:w-96 rounded transition duration-200 cursor-pointer hover:scale-105 bg-white p-4 bg-lychee">
             <div>
                 <div className="flex flex-row justify-between">
                     <ProjectTitle title={project.name} />
