@@ -3,7 +3,7 @@ import { PROJECTS } from "../../constants/projects";
 
 export default function Projects() {
     return (
-        <section id="projects" className="scroll-mt-32">
+        <section id="projects" className="scroll-mt-20 md:scroll-mt-32">
             <div className="flex justify-center">
                 <h2 className="jua gradient-text text-4xl mb-8">projects</h2>
             </div>

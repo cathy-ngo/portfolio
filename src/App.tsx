@@ -12,12 +12,12 @@ function App() {
 		<div className='homeBackground flex flex-col'>
 			<Navbar></Navbar>
 
-			<section className="flex justify-center mt-12">
+			<section className="flex justify-center mt-6 md:mt-12">
 				<div className="w-[72rem] mx-12">
-					<div className="mb-64">
+					<div className="mb-28 md:mb-64">
 						<Banner></Banner>
 					</div>
-					<div className="flex flex-col gap-44">
+					<div className="flex flex-col gap-28 md:gap-44">
 						<Projects></Projects>
 						<Skills></Skills>
 						<About></About>

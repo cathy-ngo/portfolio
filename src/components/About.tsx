@@ -2,13 +2,13 @@ import { STATS, PROFICIENCY_BARS } from '../constants/stats';
 
 export default function About() {
     return (
-        <section id="about" className="scroll-mt-32">
+        <section id="about" className="scroll-mt-20 md:scroll-mt-32">
             <div className="flex justify-center">
                 <h2 className="jua gradient-text text-4xl mb-8">about</h2>
             </div>
 
             <div className="flex justify-center">
-                <div className="flex bg-snow rounded lg:w-10/12 flex-col md:flex-row">
+                <div className="flex bg-snow rounded w-80 md:w-full lg:w-10/12 flex-col md:flex-row">
                     <div className="w-full md:w-5/12 flex flex-col gap-8 px-14 py-10 items-center justify-center">
                         <div className="text-center">
                             <h3 className="gaegu text-brownie text-lg pt-2">PROFILE CARD</h3>
@@ -41,7 +41,7 @@ export default function About() {
                         </div>
                     </div>
 
-                    <div className="bg-strawberry w-full lg:w-7/12 rounded">
+                    <div className="bg-strawberry w-full md:lg:w-7/12 rounded">
                         <div className="px-14 pb-10 pt-9 flex flex-col h-full justify-between gap-4">
                             {STATS.map((stat) => {
                                 return (

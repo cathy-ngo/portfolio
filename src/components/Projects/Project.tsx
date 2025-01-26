@@ -8,7 +8,7 @@ type ProjectProps = {
 
 function Cover({ project }: ProjectProps) {
     return (
-        <div className="flex flex-col p-4 justify-between bg-cover h-96 w-96 rounded transition duration-200 cursor-pointer hover:scale-105" style={{ backgroundImage: `url(${project.image})` }}>
+        <div className="flex flex-col p-4 justify-between bg-cover h-80 w-80 md:h-96 md:w-96 rounded transition duration-200 cursor-pointer hover:scale-105" style={{ backgroundImage: `url(${project.image})` }}>
             <ProjectTitle title={project.name} />
             <div className="flex gap-3 justify-end">
                 {project.tags.map(tag => {
@@ -21,7 +21,7 @@ function Cover({ project }: ProjectProps) {
 
 function Details({ project }: ProjectProps) {
     return (
-        <div className="flex flex-col justify-between h-96 w-96 rounded transition duration-200 cursor-pointer hover:scale-105 bg-white p-4 bg-lychee">
+        <div className="flex flex-col justify-between h-80 w-80 md:h-96 md:w-96 rounded transition duration-200 cursor-pointer hover:scale-105 bg-white p-4 bg-lychee">
             <div>
                 <div className="flex flex-row justify-between">
                     <ProjectTitle title={project.name} />

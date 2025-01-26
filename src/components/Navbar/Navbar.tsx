@@ -45,7 +45,7 @@ export default function Navbar() {
 
     return (
         <nav className="flex justify-center sticky top-0 z-50">
-            <div className="flex w-96 bg-white bg-opacity-90 gap-6 px-8 py-2 mt-10 gaegu text-brownie text-xl rounded">
+            <div className="flex w-80 gap-3 justify-between text-lg md:w-96 bg-white bg-opacity-90 md:gap-6 px-8 py-2 mt-5 md:mt-10 gaegu text-brownie md:text-xl rounded">
                 {leftItems.map((item) => (
                     <NavButton
                         key={item.name}
